@@ -1,0 +1,94 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc2a0;
+  min-height: 100vh;
+}
+
+.simple-todos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 90%;
+  padding: 25px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .simple-todos-container {
+    padding: 50px;
+    margin-top: 95px;
+    margin-bottom: 95px;
+  }
+}
+
+.head {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .head {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+}
+
+.todos-list {
+  padding-left: 0px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.input-text {
+  border-radius: 10px;
+  height: 45px;
+  width: 100%;
+  border-style: solid;
+  border-width: 0.2px;
+  border-color: lightgray;
+  outline: none;
+  padding: 8px;
+  margin-right: 10px;
+  font-size: 18px;
+  color: rgb(44, 43, 43);
+}
+.input-text-num {
+  border-radius: 10px;
+  height: 45px;
+  width: 100%;
+  border-style: solid;
+  border-width: 0.2px;
+  border-color: lightgray;
+  outline: none;
+  padding: 8px;
+  margin-right: 10px;
+  font-size: 15px;
+  color: rgb(44, 43, 43);
+  max-width: 100px;
+}
+.add-task-btn {
+  outline: none;
+  border-style: none;
+  height: 40px;
+  padding: 10px;
+  font-weight: 540;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 8px;
+  width: 120px;
+}
